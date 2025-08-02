@@ -18,6 +18,10 @@
   }
 }
 
+.main-title {
+  margin-bottom: 20px;
+}
+
 .input-wrapper {
   display: flex;
   justify-content: center;
@@ -65,4 +69,31 @@
 .label {
   text-transform: uppercase;
   font-size: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.snackbar-text {
+  font-size: 20px;
+}
+
+.snackbar-btn {
+  width: 320px;
+  font-size: 20px;
+}
+
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-cont {
+  width: 294px;
+  margin-bottom: 16px;
+  border: 1px rgb(175, 176, 177) solid;
 }

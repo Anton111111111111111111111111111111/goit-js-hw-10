@@ -38,7 +38,6 @@ flatpickr('.js-input', options);
 
 let intervalID = null;
 btnInputElem.addEventListener('click', evt => {
-  evt.preventDefault();
   inputElem.disabled = true;
   if (intervalID !== null) {
     clearInterval(intervalID);

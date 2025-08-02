@@ -13,6 +13,38 @@
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Snackbar</h1>
       </div>
+      <form class="form">
+        <label class="input-cont snackbar-text">
+          Delay (ms)
+          <input class="js-input" type="number" name="delay" required />
+        </label>
+
+        <fieldset class="state-cont">
+          <legend class="snackbar-text">State</legend>
+          <label>
+            <input
+              class="snackbar-text"
+              type="radio"
+              name="state"
+              value="fulfilled"
+              required
+            />
+            Fulfilled
+          </label>
+          <label>
+            <input
+              class="snackbar-text"
+              type="radio"
+              name="state"
+              value="rejected"
+              required
+            />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button class="snackbar-btn" type="submit">Create notification</button>
+      </form>
     </main>
 
     <script type="module" src="./js/2-snackbar.js"></script>
